@@ -1,0 +1,17 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(255, 238, 193);
+}
+header {
+    border-bottom: 3px solid #3e2929; 
+}
+.nave {
+    
+}
+.pdivo {
+    background-color: rgb(224, 142, 75);
+}
