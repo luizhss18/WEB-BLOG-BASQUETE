@@ -1,58 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog da vez | Basquete</title>
     <link rel="stylesheet" href="blog.css">
 </head>
 <body>
     <header>
-            <nav class="nave">
-                <div class="pdivo">
-                    <h3>Blog da vez</h3>
-                    <br>
-                    <h1>Basquete</h1>
-                </div>  
-            
-                <div class="links">
-                    <h3>Contato</h3>
-                    <h3>Sobre</h3>
-                </div>
-            </nav>
+        <nav class="nave">
+            <div class="pdivo">
+                <h3>Blog da vez</h3>
+                <h1>Basquete</h1>
+            </div>
+            <div class="links">
+                <a href="#lendas">Lendas</a>
+                <a href="#quadra">Quadra</a>
+                <a href="#rodape">Contato</a>
+            </div>
+        </nav>
     </header>
+
     <main>
-        <section class="psection">
-            <img src="baska.png" alt="Basca da rua">
-            <br>
-            <h1>
-                Sua vez de jogar
-            </h1>
+        <section class="psection" aria-label="Destaque do blog">
+            <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1800&q=85" alt="Jogador de basquete fazendo uma enterrada">
         </section>
-        <section class="ssection">
-            <article class="pimage">
-                
-                <div>div aleatoria</div>
-                <h2>titu foto</h2>
-                <p>Texto foto</p>
+
+        <section class="frase">
+            <p>Não espere a quadra chamar: pegue a bola, entre no jogo e faça a sua história acontecer.</p>
+        </section>
+
+        <section class="ssection" id="lendas" aria-label="Lendas e histórias do basquete">
+            <article class="pimage legenda-card">
+                <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/893.png" alt="Michael Jordan">
+                <div class="conteudo-card">
+                    <span class="categoria">Lenda da NBA</span>
+                    <h2>Michael Jordan</h2>
+                    <p>O competidor que transformou voos, títulos e uma mentalidade incansável em legado.</p>
+                    <a class="botao" href="https://pt.wikipedia.org/wiki/Michael_Jordan" target="_blank" rel="noopener">Ver biografia <span>→</span></a>
+                </div>
             </article>
 
-            <article class="pimage">
-                <div>div aleatoria</div>
-                <h2>titu foto</h2>
-                <p>Texto foto</p>
+            <article class="pimage aesthetic-card" id="quadra">
+                <img src="https://images.unsplash.com/photo-1518065896235-a4c93e088e7a?auto=format&fit=crop&w=900&q=85" alt="Bola de basquete em uma quadra iluminada">
+                <div class="conteudo-card">
+                    <span class="categoria">Clima de quadra</span>
+                    <h2>Depois do pôr do sol</h2>
+                </div>
             </article>
 
-            <article class="pimage">
-                <div>div aleatoria</div>
-                <h2>titu foto</h2>
-                <p>Texto foto</p>
+            <article class="pimage legenda-card">
+                <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/977.png" alt="Kobe Bryant">
+                <div class="conteudo-card">
+                    <span class="categoria">Lenda da NBA</span>
+                    <h2>Kobe Bryant</h2>
+                    <p>Paixão pelo detalhe, ética de trabalho e uma vontade de evoluir todos os dias.</p>
+                    <a class="botao" href="https://pt.wikipedia.org/wiki/Kobe_Bryant" target="_blank" rel="noopener">Ver biografia <span>→</span></a>
+                </div>
+            </article>
+
+            <article class="pimage aesthetic-card">
+                <img src="https://images.unsplash.com/photo-1504450758481-7338eba7524a?auto=format&fit=crop&w=900&q=85" alt="Aro de basquete visto de baixo">
+                <div class="conteudo-card">
+                    <span class="categoria">Clima de quadra</span>
+                    <h2>Olhos no aro</h2>
+                </div>
+            </article>
+
+            <article class="pimage legenda-card">
+                <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/77142.png" alt="Magic Johnson">
+                <div class="conteudo-card">
+                    <span class="categoria">Lenda da NBA</span>
+                    <h2>Magic Johnson</h2>
+                    <p>Visão de jogo, alegria e passes que provaram que basquete também é imaginação.</p>
+                    <a class="botao" href="https://pt.wikipedia.org/wiki/Magic_Johnson" target="_blank" rel="noopener">Ver biografia <span>→</span></a>
+                </div>
             </article>
         </section>
     </main>
-    <br>
-    <footer>
-        <p>rodapezada</p>
+
+    <footer id="rodape">
+        <p>Blog da vez — Basquete</p>
+        <p>Feito para quem ama o jogo.</p>
     </footer>
 </body>
 </html>
