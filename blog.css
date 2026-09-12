@@ -9,8 +9,14 @@ body {
 header {
     border-bottom: 3px solid #3e2929; 
 }
-.nave {
+.ssection {
+    display:grid;
+    grid-template-columns:repeat(5);
     
+}
+.pimage {
+    border: solid, red;
+    margin-right: 1000px;
 }
 .pdivo {
     background-color: rgb(224, 142, 75);
